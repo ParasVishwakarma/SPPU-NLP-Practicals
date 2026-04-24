@@ -1,62 +1,25 @@
-# 📘 SPPU-NLP-Practicals
+# 🚀 SPPU NLP Practicals — Complete NLP Pipeline + Transformer
 
-This repository contains end-to-end implementations of core **Natural Language Processing (NLP)** concepts as part of the SPPU BE Computer Engineering curriculum. It covers fundamental to advanced techniques including preprocessing, vectorization, and deep learning models.
-
----
-
-## 🚀 Features
-
-- Text Preprocessing (Cleaning, Stop Words Removal)
-- Tokenization Techniques (Whitespace, WordPunct, Treebank, Tweet, MWE)
-- Stemming (Porter, Snowball)
-- Lemmatization (WordNet)
-- Bag of Words (BoW)
-- TF-IDF Vectorization
-- Word2Vec Embeddings
-- Transformer Model (from scratch using PyTorch)
+<p align="center">
+  <b>End-to-End Natural Language Processing (NLP) Implementations</b><br>
+  From Text Preprocessing → TF-IDF → Word2Vec → Transformer (PyTorch)
+</p>
 
 ---
 
+## 📌 About the Project
+
+This repository contains a complete set of **Natural Language Processing (NLP)** practical implementations as part of the SPPU Computer Engineering curriculum.
+
+It covers the full NLP pipeline:
+- Text preprocessing
+- Feature extraction
+- Word embeddings
+- Deep learning (Transformer from scratch)
 
 ---
 
-## 🧠 Practical Overview
-
-### 🔹 Practical 1: NLP Basics
-- Tokenization using multiple techniques
-- Stemming using Porter & Snowball
-- Lemmatization using WordNet
-
----
-
-### 🔹 Practical 2: Text Representation
-- Bag of Words (Count + Normalized)
-- TF-IDF Vectorization
-- Word2Vec embeddings using Gensim
-
----
-
-### 🔹 Practical 3: Text Preprocessing Pipeline
-- Text Cleaning (HTML, URLs, punctuation removal)
-- Stop Word Removal
-- Lemmatization
-- Label Encoding
-- TF-IDF (Unigrams + Bigrams)
-
----
-
-### 🔹 Practical 4: Transformer Model
-- Built from scratch using PyTorch
-- Includes:
-  - Scaled Dot-Product Attention
-  - Multi-Head Attention
-  - Positional Encoding
-  - Encoder & Decoder Layers
-- Training on a copy task
-
----
-
-## 🛠️ Technologies Used
+## ⚡ Tech Stack
 
 - Python 🐍
 - NLTK
@@ -67,22 +30,88 @@ This repository contains end-to-end implementations of core **Natural Language P
 
 ---
 
-## 📊 Datasets Used
+## 🧠 Key Features
 
-- Custom Sample Text
-- Car Dataset (Kaggle)
-- News Dataset (Pickle format)
+✔ Multiple Tokenization Techniques  
+✔ Stemming & Lemmatization  
+✔ Bag of Words & TF-IDF  
+✔ Word2Vec Embeddings  
+✔ Complete NLP Preprocessing Pipeline  
+✔ Transformer Model (from scratch 🔥)
 
 ---
 
-## 📌 How to Run
+## 📂 Project Structure
+SPPU-NLP-Practicals/
+│
+├── Practical-1 → NLP Basics
+├── Practical-2 → BoW, TF-IDF, Word2Vec
+├── Practical-3 → Text Preprocessing Pipeline
+├── Practical-4 → Transformer (PyTorch)
+
+
+
+---
+
+## 📊 Practical Breakdown
+
+### 🔹 Practical 1 — NLP Basics
+- Tokenization (5 methods)
+- Stemming (Porter, Snowball)
+- Lemmatization (WordNet)
+
+---
+
+### 🔹 Practical 2 — Feature Engineering
+- Bag of Words
+- TF-IDF
+- Word2Vec (Gensim)
+
+---
+
+### 🔹 Practical 3 — Preprocessing Pipeline
+- Text Cleaning
+- Stop Words Removal
+- Lemmatization
+- Label Encoding
+- TF-IDF (5000 features)
+
+---
+
+### 🔹 Practical 4 — Transformer Model 🔥
+- Attention Mechanism
+- Multi-Head Attention
+- Encoder-Decoder Architecture
+- Training from scratch
+
+---
+
+## 🚀 How to Run
 
 ```bash
-# Clone the repository
 git clone https://github.com/ParasVishwakarma/SPPU-NLP-Practicals.git
-
-# Navigate into folder
 cd SPPU-NLP-Practicals
-
-# Install dependencies
 pip install -r requirements.txt
+jupyter notebook
+
+
+📈 Learning Outcomes
+Strong NLP fundamentals
+Real-world text processing skills
+Understanding of word embeddings
+Deep knowledge of Transformer architecture
+👨‍💻 Author
+
+Paras Vishwakarma
+BE Computer Engineering | SPPU
+
+⭐ Show Your Support
+
+If you found this useful, give a ⭐ and share!
+
+
+
+
+
+
+
